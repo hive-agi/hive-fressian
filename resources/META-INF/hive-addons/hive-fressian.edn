@@ -1,0 +1,10 @@
+{:addon/id           "hive.fressian"
+ :addon/kind         :library
+ :addon/type         :native
+ :addon/version      "0.1.0"
+ :addon/init-ns      "hive-fressian.addon"
+ :addon/init-fn      "init-as-addon!"
+ :addon/config       {}
+ :addon/capabilities #{:health-reporting :serialization/fressian}
+ :addon/dependencies #{}
+ :addon/description  "Generic Fressian envelope codec with an OCP handler-domain registry."}

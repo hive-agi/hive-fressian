@@ -1,0 +1,17 @@
+{:paths ["src" "resources"]
+ :deps
+ {org.clojure/clojure {:mvn/version "1.12.1"}
+
+  ;; Host-neutral addon contract (library-kind addon).
+  io.github.hive-agi/hive-addon {:mvn/version "0.2.0"}
+
+  ;; Malli value objects + test-synthesis bridge.
+  io.github.hive-agi/hive-schemas {:mvn/version "0.1.1"}
+
+  org.clojure/data.fressian {:mvn/version "1.1.0"}}
+
+ :aliases
+ {:test
+  {:extra-paths ["test"]
+   :extra-deps  {io.github.hive-agi/hive-test {:mvn/version "0.3.1"}
+                 org.clojure/test.check {:mvn/version "1.1.1"}}}}}
