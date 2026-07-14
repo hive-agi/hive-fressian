@@ -4,3 +4,5 @@
 .clj-kondo/.cache/
 target/
 local.deps.edn
+.clj-kondo/imports/
+.lsp/.cache/
