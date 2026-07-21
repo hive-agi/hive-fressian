@@ -25,3 +25,12 @@
 (defn init-as-addon!
   ([] (init-as-addon! {}))
   ([seed] (->HiveFressianAddon seed)))
+
+(defn addon-ctor
+  "Pure constructor for the `hive.fressian` IAddon — (config -> IAddon).
+   The mounter (hive-addon.mount) resolves this via :addon/init-fn; the host
+   then drives register!/initialize!. No registration or side effects.
+   Additive: the legacy `init-as-addon!` name is retained for the current
+   hive-mcp loader."
+  [config]
+  (->HiveFressianAddon config))
