@@ -1,0 +1,6 @@
+{:project-id "hive-fressian"
+ :parent "hive"
+ :description "Generic Fressian envelope codec with an OCP handler-domain registry, packaged as a library-kind hive-addon. Register a named bundle of write/read handlers once; every codec call sees the merged handlers."
+ :language :clojure
+ :tags ["addon" "fressian" "codec" "serialization" "ocp" "registry"]
+ :carto {:source-roots ["src" "test"]}}
