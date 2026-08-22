@@ -1,5 +1,14 @@
 # hive-fressian
 
+<!-- hive-badges -->
+
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.hive-agi/hive-fressian.svg)](https://clojars.org/io.github.hive-agi/hive-fressian)
+[![cljdoc](https://cljdoc.org/badge/io.github.hive-agi/hive-fressian)](https://cljdoc.org/d/io.github.hive-agi/hive-fressian/CURRENT)
+[![release](https://github.com/hive-agi/hive-fressian/actions/workflows/release.yml/badge.svg)](https://github.com/hive-agi/hive-fressian/actions/workflows/release.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+<!-- /hive-badges -->
+
 Generic [Fressian](https://github.com/clojure/data.fressian) envelope codec
 with an OCP handler-domain registry, packaged as a library-kind
 [hive-addon](https://github.com/hive-agi/hive-addon) (`IAddon` 0.2.0).
