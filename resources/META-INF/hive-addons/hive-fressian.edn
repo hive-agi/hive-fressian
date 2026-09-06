@@ -7,4 +7,6 @@
  :addon/config       {}
  :addon/capabilities #{:health-reporting :serialization/fressian}
  :addon/dependencies #{}
- :addon/description  "Generic Fressian envelope codec with an OCP handler-domain registry."}
+ :addon/description  "Generic Fressian envelope codec with an OCP handler-domain registry."
+ :addon/maturity :beta
+ :addon/trust-class :foss}
